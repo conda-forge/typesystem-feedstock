@@ -1,5 +1,5 @@
 {% set name = "typesystem" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 94574c7a2092b8d85e92af137e4e4f60d0fefe609ef01d64f972afe16437b707
+  sha256: 608cb3b70116e6930ee89f779598a9e51d381b672e0f5e0cc6caf5d1300157bc
 
 build:
   number: 0
