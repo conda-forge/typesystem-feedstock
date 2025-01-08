@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://github.com/encode/typesystem
-  license: BSD
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.md
   summary: A type system library for Python
